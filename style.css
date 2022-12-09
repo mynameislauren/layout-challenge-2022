@@ -1,0 +1,17 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#navheader {
+    background-color: lightgreen;
+    border: 0.1em solid black;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+}
+.navlinks {
+    background-color: rgb(11, 196, 122);
+    border: 0.1em solid black;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+}
