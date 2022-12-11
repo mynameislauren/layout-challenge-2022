@@ -15,3 +15,24 @@ body {
     display:flex;
     justify-content: center;
 }
+#logo {
+    max-width: 8em;
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto;
+}
+#bio {
+    background-color: lightgreen;
+    border: 0.1em solid black;
+    margin: 0px;
+    display:flex;
+    justify-content: center;
+    padding: 0.5em;
+    margin: 0.5em 5em 0.5em 5em;
+}
+#portfolio {
+    display:flex;
+    justify-content: center;
+}
+#portfolio h2 {}
