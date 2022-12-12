@@ -91,3 +91,109 @@ body {
     list-style-type: none;
     padding-left: 0em;
 }
+
+@media (min-width: 480px) {
+    nav {
+        background-color: lightgreen; 
+        border: 0.1em solid black;
+    }
+    #navheader {
+        background-color: lightgreen;
+        border: none;
+        margin: 0px;
+        display:flex;
+        justify-content: center;
+
+    }
+    #navlinksgroup {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .navlinks {
+        background-color: rgb(11, 196, 122);
+        margin: 0px;
+        display:flex;
+        justify-content: center;
+    }
+    #logobio {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        border: 0.1em solid black;
+        margin: 2em;
+        border-radius: 1em;
+        background-color: lightgreen;
+
+    }
+    #logo {
+      
+    }
+    #bio {
+        background-color: lightgreen;
+        border: none;
+        display:flex;
+        margin: none;
+
+    }
+    #portfolio {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #portfolio h2 {
+        margin-bottom: 0em;
+    }
+    #resume {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #resume h2 {
+        margin-bottom: 0.8em;
+    }
+    .button {
+        background-color: lightgreen;
+        border: 0.1em solid black;
+        margin: 0px;
+        display:flex;
+        justify-content: center;
+        padding: 0.5em;
+        filter: drop-shadow(2px 2px 0px #000000);
+    }
+    #resume h4 {
+        margin-bottom: 0em;
+    }
+    .resumetext {
+        margin: 0em 1em 0em 1em;
+    }
+    #skills {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #skills h2 {
+        margin-bottom: 0em;
+    }
+    #skilllist {
+        list-style-type: none;
+        padding-left: 0em;
+    }
+    #footer {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(11, 196, 122);
+        border: 0.1em solid black;
+        margin: 0px;
+        display:flex;
+        justify-content: center;
+    }
+    #footer h2 {
+        margin-bottom: 0em;
+    }
+    #contactlist {
+        list-style-type: none;
+        padding-left: 0em;
+
+    }
+    }
